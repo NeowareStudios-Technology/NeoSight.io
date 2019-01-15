@@ -4,13 +4,13 @@ $email = $_POST['Email'];
 $phone = $_POST['Phone'];
 $message = $_POST['Message'];
  
-$to = 'info@neoware.io';
+$to = 'info@neosight.io';
 $subject = 'Web Inquiry';
 $message = 'From: '.$name."\n".
   '  Email: '.$email."\n".
   '  Phone: '.$phone."\n".
   '  Message: '.$message;
-$headers = 'From: info@neoware.io' . "\r\n";
+$headers = 'From: info@sight.io' . "\r\n";
  
 // this line checks that we have a valid email address
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { 
